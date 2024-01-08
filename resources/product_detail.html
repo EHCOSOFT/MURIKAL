@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MURIKAL</title>
+
+    <script src="assets/lib/jquery.min.js"></script>
+    <script src="assets/lib/aos.js"></script>
+
+    <link rel="stylesheet" href="assets/lib/aos.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <main class="wrap">
+        <!-- s: header -->
+        <header>
+            <div class="header_wrap">
+                <a href="index.html" class="header_logo">
+                    <img src="assets/img/logo.png" alt="MURIKAL LOGO">
+                </a>
+                <button class="btn_open pc_none">
+                    <i class="i i_menu"></i>
+                </button>
+                <nav class="m_none">
+                    <ul>
+                        <li>
+                            <a href="#">브랜드</a>
+                        </li>
+                        <li>
+                            <a href="product.html">제품소개</a>
+                        </li>
+                        <li>
+                            <a href="#">아카데미</a>
+                        </li>
+                        <li>
+                            <a href="#">고객센터</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- e: header -->
+
+        <!-- s: header_menu -->
+        <div class="header_menu">
+            <div class="header_wrap">
+                <a href="index.html" class="header_logo">
+                    <img src="assets/img/logo_g.png" alt="MURIKAL LOGO">
+                </a>
+                <button class="btn_close">
+                    <i class="i i_close"></i>
+                </button>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">브랜드</a>
+                    </li>
+                    <li>
+                        <a href="product.html">제품소개</a>
+                    </li>
+                    <li>
+                        <a href="#">아카데미</a>
+                    </li>
+                    <li>
+                        <a href="#">고객센터</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- e: header_menu -->
+
+        <section class="content">
+            <div class="cont_top bg01">
+                <h1>PRODUCTS</h1>
+                <p>14가지 성장인자와 4종류의 항산화 펩타이드가 <br class="m_none">배합된 복합성장인자 제품군</p>
+            </div>
+            <div class="cont_body">
+                <div class="tab">
+                    <button class="tablinks" onclick="openProduct(event, 'tab01')" id="defaultOpen">
+                        <img src="assets/img/tab01.png" alt="">
+                    </button>
+                    <button class="tablinks" onclick="openProduct(event, 'tab02')">
+                        <img src="assets/img/tab02.png" alt="">
+                    </button>
+                </div>
+
+                <div id="tab01" class="tabcontent">
+                    <div class="product_wrap">
+                        <div class="product_top detail_top">
+                            <p class="product_category pc_none"><span>헤어용</span></p> 
+                            <ul class="product_deth m_none">
+                                <li>
+                                    <a href="#">헤어용</a>
+                                </li>
+                                <li>
+                                    <a href="#"> SCALP CARE SHAMPOO</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="product_detail">
+                            <div class="product">
+                                <div class="product_img">
+                                    <img class="m_none" src="assets/img/product_img_01.png" alt="">
+                                    <img class="pc_none" src="assets/img/m_product_img_01.png" alt="">
+                                </div>
+                                <div class="product_info">
+                                    <p class="product_category m_none"><span>헤어용</span></p>
+                                    <h1>Scalp Science 4GF Hair Essence</h1>
+                                    <h3>스칼프 사이언스 포지에프 헤어 에센스</h3>
+                                    <p>크리스탈처럼 빛나는 광채!<br>
+                                        큐티클 회복과 모발영양공급으로 되살아나는 광채를 선사합니다.<br class="m_none">
+                                        모발을 구성하는 단백질과 아미노산성분이 손상된 조직을 개선하는데 도움을 줍니다.</p>
+                                    <dl class="info01">
+                                        <dt>용량</dt>
+                                        <dd>145ml</dd>
+                                    </dl>
+                                    <dl class="m_none">
+                                        <dt>주요성분</dt>
+                                        <dd>5종의 성장인자성분 (IGF-1/KGF-1/bFGF/VEGF/Noggin), 요협후박나무껍질추출물(특), 완두콩펩타이드(특), 아미노산 6종, 미네랄 4종</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>사용방법</dt>
+                                        <dd>두피 및 모발이 젖은 상태에서 적당량을 손에 덜어 모발과 두피에 가볍게
+                                            마사지하듯 펴 바른 다음 2-3분 후 미온수로 깨끗이 헹구어 줍니다.</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>두피타입</dt>
+                                        <dd>모든모발 / 손상모발</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                            <p class="product_detail_info">상세정보</p>
+                            <div class="detail">
+                                <img src="assets/img/product_datail_01.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div id="tab02" class="tabcontent">
+                    tab 2
+                </div> -->
+            </div>
+        </section>
+
+        <footer>
+            <div class="footer_wrap">
+                <img src="assets/img/logo_w.png" alt="">
+                <address class="pc_none">
+                    <ul>
+                        <li>회사명 : ㈜머리칼 ｜ 대표자명 : 김금숙</li>
+                        <li>전화 : 031-374-5860</li>
+                    </ul>
+                    <ul>
+                        <li>주소 : 서울특별시 강동구 올림픽로 774, 3층(천호동)</li>
+                        <li>사업자등록번호 : 715-88-03029 </li>
+                        <li>통신판매업신고번호 : 0000-강원-000호 </li>
+                        <li>개인정보보호책임자 : 박문수</li>
+                    </ul>
+                </address>
+                <address class="m_none">
+                    <ul>
+                        <li>회사명 : ㈜머리칼 ｜ 대표자명 : 김금숙 ｜ 전화 : 031-374-5860</li>
+                    </ul>
+                    <ul>
+                        <li>주소 : 서울특별시 강동구 올림픽로 774, 3층(천호동) ｜ 사업자등록번호 : 715-88-03029 ｜ 통신판매업신고번호 : 0000-강원-000호 ｜
+                            개인정보보호책임자 : 박문수</li>
+                    </ul>
+                </address>
+                <ul class="terms">
+                    <li>
+                        <a href="#">개인정보 처리방침</a>
+                    </li>
+                    <li>
+                        <a href="#">이메일 무단 수집 거부</a>
+                    </li>
+                    <li class="m_none">Copyright ⓒ BY MURICAL All rights reserved</li>
+                </ul>
+                <p class="pc_none">Copyright ⓒ BY MURICAL All rights reserved</p>
+            </div>
+        </footer>
+
+    </main>
+
+
+    <script src="assets/js/all.js"></script>
+</body>
+
+</html>
